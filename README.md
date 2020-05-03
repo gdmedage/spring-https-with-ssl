@@ -25,6 +25,8 @@ Step-3 : Add following properties in application.properties file.
 		server.ssl.key-store-provider=SUN
 		server.ssl.key-store-type=JKS
 		
+		We can also use different store types like JCEKS,PKCS12,PKCS11,DKS,Windows-MY,BKS etc.
+		
 Step-4 : Create Java configuration class for redirect HTTP to HTTPS Request configuration.
 		
 		This is an optional step in case you want to redirect your HTTP traffic to HTTPS, so that the full site becomes secured.
